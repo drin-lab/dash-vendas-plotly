@@ -44,13 +44,15 @@ app.css.config.serve_locally = True
 app.layout = html.Div(
     children=[        
         html.Div(
-            children =[
-            	html.H1(
-                    html.P(children="🥑", className="header-emoji"),
-                    children = "Report Vendas", className="header-title"
+            children=[
+                html.P(children="🥑", className="header-emoji"),
+                html.H1(
+                    children="[Python] Analytics", className="header-title"
                 ),
-                html.H4(
-                    children ="Análise do comportamento de vendas e faturamento",
+                html.P(
+                    children="Análise de vendas e faturamento"
+                        " Framework Python Dash Plotly"
+                        " Ano 2021",
                     className="header-description",
                 ),
             ],
@@ -269,14 +271,7 @@ def update_plot(input_produto, input_date):
     return tree_fig
 
  
-  
-
-
-
-
-
 if __name__ == '__main__':
 	app.run_server(debug=True)
-
 
 

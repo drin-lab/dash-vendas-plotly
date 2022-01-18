@@ -7,7 +7,7 @@ body {
 
 .header {
 	background-color: #222222;
-	height: 200px;
+	height: 250px;
 	padding: 20px 0 0 0;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -23,12 +23,21 @@ body {
 
 .header-description {
 	color:  #FFFFFF;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
 	margin: 0 auto;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 }
+
+.header-emoji {
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
 .wrapper{
 	margin-right: auto;
 	margin-left: auto;
