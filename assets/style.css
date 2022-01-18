@@ -1,0 +1,100 @@
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	background-color: #F7F7F7;
+}
+
+.header {
+	background-color: #222222;
+	height: 200px;
+	padding: 20px 0 0 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header-title {
+	color:  #FFFFFF;
+	font-size:  28px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header-description {
+	color:  #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1024px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 32px;
+}
+.card{
+	margin-bottom: 24px;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.select_box {
+    color: #fda026 !important;
+    border-bottom: 3px dotted gold;
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 34px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+    -webkit-appearance: none;
+    background-position-x: 244px;
+}
+.menu{
+	height: 112px;
+	width: 912px;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 24px;
+	margin: -80px auto 0 auto;
+	background-color: #FFFFFF;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+
+.menu2{
+	height: 152px;
+	width: 912px;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 24px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+
+}
+
+
+
+
+.Select-control{
+	width: 256px;
+	height: 48px;
+}
+
+.Select--single > .Select-control .Select-value .Select-placeholder { line-height: 48px; }
+
+.Select--multi .Select-value-label { line-height: 32px; }
+
+.menu-title {
+	margin-bottom: 6px;
+	font-weight: bold;
+	color : #079A82;
+
+} 
