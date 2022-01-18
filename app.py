@@ -46,6 +46,7 @@ app.layout = html.Div(
         html.Div(
             children =[
             	html.H1(
+                    html.P(children="🥑", className="header-emoji"),
                     children = "Report Vendas", className="header-title"
                 ),
                 html.H4(
